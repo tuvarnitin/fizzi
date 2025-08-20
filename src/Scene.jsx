@@ -27,7 +27,7 @@ const Scene = () => {
         })
         .from(groupRef.current.rotation, {
             z: .6,
-            // delay: .7,
+            delay: .7,
             ease: "power2.inOut"
         },"-=.3")
 

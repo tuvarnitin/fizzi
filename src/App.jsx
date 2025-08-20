@@ -12,7 +12,6 @@ gsap.registerPlugin(useGSAP, ScrollTrigger, SplitText)
 
 
 const App = () => {
-  // const split = new SplitText(".headline", { type: "words,chars" });
   useGSAP(() => {
     const splitText = new SplitText("#heading", { type: "chars" })
     const introTl = gsap.timeline()
@@ -113,6 +112,7 @@ const App = () => {
         shadows
         dpr={[1, 1.5]}
         gl={{ antialias: true }}
+        
       >
         <View.Port />
       </Canvas>
